@@ -1,0 +1,9 @@
+Compiler/deps/
+Compiler/obj/Debug32/vc142.idb
+Compiler/obj/Debug32/Compiler.tlog/CL.command.1.tlog
+Compiler/obj/Debug32/Compiler.tlog/CL.read.1.tlog
+Compiler/obj/Debug32/Compiler.tlog/CL.write.1.tlog
+Compiler/obj/Debug32/Compiler.tlog/Compiler.lastbuildstate
+Compiler/obj/Debug32/Compiler.tlog/link.command.1.tlog
+Compiler/obj/Debug32/Compiler.tlog/link.read.1.tlog
+Compiler/obj/Debug32/Compiler.tlog/link.write.1.tlog
