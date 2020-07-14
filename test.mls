@@ -1,0 +1,10 @@
+def f(a, b) {
+    def sum(a, b) {
+        return a + b;
+    }
+    c = sum(a, b);
+    return c / 2;
+}
+
+a = f(3, 5);
+print(a);

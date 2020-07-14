@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CodeBuilder.cpp" />
+    <ClCompile Include="Lexer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="ASTAssignment.cpp">
+      <Filter>AST</Filter>
+    </ClCompile>
+    <ClCompile Include="ASTFuncDef.cpp">
+      <Filter>AST</Filter>
+    </ClCompile>
+    <ClCompile Include="ASTReturn.cpp">
+      <Filter>AST</Filter>
+    </ClCompile>
+    <ClCompile Include="ASTRoot.cpp">
+      <Filter>AST</Filter>
+    </ClCompile>
+    <ClCompile Include="ASTStatement.cpp">
+      <Filter>AST</Filter>
+    </ClCompile>
+    <ClCompile Include="ASTExpr.cpp">
+      <Filter>AST\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="ASTExprBinOp.cpp">
+      <Filter>AST\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="ASTExprCallFunc.cpp">
+      <Filter>AST\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="ASTExprNumber.cpp">
+      <Filter>AST\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="ASTExprVar.cpp">
+      <Filter>AST\Expr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CodeBuilder.hpp" />
+    <ClInclude Include="Lexer.hpp" />
+    <ClInclude Include="Parser.hpp" />
+    <ClInclude Include="ASTAssignment.hpp">
+      <Filter>AST</Filter>
+    </ClInclude>
+    <ClInclude Include="ASTFuncDef.hpp">
+      <Filter>AST</Filter>
+    </ClInclude>
+    <ClInclude Include="ASTReturn.hpp">
+      <Filter>AST</Filter>
+    </ClInclude>
+    <ClInclude Include="ASTRoot.hpp">
+      <Filter>AST</Filter>
+    </ClInclude>
+    <ClInclude Include="ASTStatement.hpp">
+      <Filter>AST</Filter>
+    </ClInclude>
+    <ClInclude Include="ASTExpr.hpp">
+      <Filter>AST\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="ASTExprBinOp.hpp">
+      <Filter>AST\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="ASTExprCallFunc.hpp">
+      <Filter>AST\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="ASTExprNumber.hpp">
+      <Filter>AST\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="ASTExprVar.hpp">
+      <Filter>AST\Expr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AST">
+      <UniqueIdentifier>{f3707fb0-fa17-4c5a-b4e5-63ea93bf37df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AST\Expr">
+      <UniqueIdentifier>{1597a9d9-6e5e-4021-ba83-10d40db93ebc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

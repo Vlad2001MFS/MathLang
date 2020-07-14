@@ -1,0 +1,37 @@
+
+jmp @f_end@
+f:
+    set f.a
+    set f.b
+    
+    jmp @f.sum_end@
+    f.sum:
+        set f.sum.a
+        set f.sum.b
+        get f.sum.b
+        get f.sum.a
+        add
+        unset f.sum.b
+        unset f.sum.a
+        ret
+    @f.sum_end@:
+    
+    get f.a
+    get f.b
+    call f.sum
+    set f.c
+    push 2.000000
+    get f.c
+    div
+    unset f.c
+    unset f.b
+    unset f.a
+    ret
+@f_end@:
+
+push 3.000000
+push 5.000000
+call f
+set a
+get a
+call print
